@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Defines the document type as HTML5 -->
+    <meta charset="UTF-8">
+    <!-- Ensures proper display on different devices, such as mobile phones -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- The title of the page that appears in the browser tab -->
+    <title>Traveling Salesman Problem - A* Algorithm</title>
+    <!-- Link to the CSS file for styling the page -->
+    <link rel="stylesheet" href="untitled2.css">
+</head>
+<body>
+    <!-- General container for the page elements -->
+    <div class="container">
+        <!-- Main title of the page -->
+        <h1>Traveling Salesman Problem</h1>
+        <!-- Form for adding cities to the system -->
+        <form id="city-form">
+            <!-- Input field for the city name -->
+            <label for="city-name">City Name:</label>
+            <input type="text" id="city-name" placeholder="Enter city name" required>
+            
+            <!-- Input field for the city's X coordinate -->
+            <label for="city-x">X Coordinate:</label>
+            <input type="number" id="city-x" placeholder="Enter X coordinate" required>
+
+            <!-- Input field for the city's Y coordinate -->
+            <label for="city-y">Y Coordinate:</label>
+            <input type="number" id="city-y" placeholder="Enter Y coordinate" required>
+            
+            <!-- Button to add the city to the list -->
+            <button type="button" id="add-city">Add City</button>
+        </form>
+        <!-- Button to calculate the optimal path using the algorithm -->
+        <button id="calculate-path">Calculate Optimal Path</button>
+        <div class="Previouspage">
+            <a href="untitled.html">Previous page</a>
+        </div>
+        <!-- Element to display textual results -->
+        <div id="output"></div>
+        <!-- Canvas element to visualize the path and cities -->
+        <canvas id="canvas" width="400" height="400"></canvas>
+        
+    </div>
+    <!-- Link to the JavaScript file for page functionality -->
+    <script src="untitled.js"></script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+
+body {
+    font-family: "Tajawal", Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.elements {
+    text-align: center;
+    background: #fff;
+    padding: 20px 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.names h1 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    color: #0056b3;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.Nextpage a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 15px;
+    transition: background-color 0.3s ease;
+}
+
+.Nextpage a:hover {
+    background-color: #0056b3;
+}
